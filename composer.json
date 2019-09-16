@@ -1,0 +1,30 @@
+{
+    "name": "huprp/xadmin",
+    "authors": [
+        {
+            "name": "Borys Trofaniuk",
+            "email": "mailbwd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "huprp\\xadmin\\xAdminServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "huprp\\xadmin\\": "src/"
+        }
+    },
+	"repositories":[
+    	{
+        	"type": "vcs",
+	        "url": "git@github.com:huprp/xadmin.git"
+    	}
+	]
+
+}
